@@ -1,0 +1,28 @@
+{
+  "name": "express-live-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verswu/express-live-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verswu/express-live-stream/issues"
+  },
+  "homepage": "https://github.com/verswu/express-live-stream#readme",
+  "dependencies": {
+    "@twilio/live-player-sdk": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "twilio": "^3.71.2"
+  }
+}
